@@ -1,12 +1,12 @@
 # Netbox plugin related import
-from extras.plugins import PluginConfig
+from netbox.plugins import PluginConfig
 
 class ProxboxConfig(PluginConfig):
     name = "netbox_proxbox"
     verbose_name = "Proxbox"
     description = "Integrates Proxmox and Netbox"
-    version = "0.0.5"
-    author = "Emerson Felipe (@emersonfelipesp)"
+    version = "0.0.6"
+    author = "hoyohayo"
     author_email = "emerson.felipe@nmultifibra.com.br"
     base_url = "proxbox"
     required_settings = []
